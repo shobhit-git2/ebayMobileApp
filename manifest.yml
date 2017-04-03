@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: ebayMobileApp
+  host: ebayMobileApp
+  disk_quota: 1024M
+  services:
+  - ebayMobileApp-AdvancedMobileAccess
+  - ebayMobileApp-imfpush
+  - ebayMobileApp-cloudantNoSQLDB
